@@ -1,0 +1,169 @@
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, .logo, h3 {
+    margin: 0;
+}
+
+header, .init, footer {
+    color: white;
+    background-color: #1f2937;
+}
+
+header, footer, .head {
+    display: flex;
+}
+header {
+   padding-left: 215px;
+   padding-top: 20px; 
+   padding-bottom: 20px; 
+}
+
+.head {
+    display: flex;
+    margin-left: 410px;
+    padding: 0;
+    gap: 10px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.head p {
+    padding: 0 8px 0 8px;
+}
+
+.init {
+    display: flexbox;
+    padding-top: 97px;
+    padding-left: 215px;
+    padding-right: 700px;
+    padding-bottom: 150px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    padding: 5px 0 5px;
+}
+
+.herosecondary {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 5px 0 5px;
+    font-weight: 200;
+}
+
+.button1 {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    width: 130px;
+    height: 35px;
+    margin-top: 8px;
+}
+
+.img1 {
+    float: right;
+    margin-top: 95px;
+    margin-right: 120px;
+    height: 250px;
+    width: 524px;
+
+}
+
+.Information {
+    color: #1f2937;
+    text-align: center;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.inforamdom {
+    margin-top: 50px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.img2 {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    width: 170px;
+    height: 170px;
+}
+
+p, article {
+    margin: 0;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.citation {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 100px 215px;
+}
+
+.cita{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.autor {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.call_accion {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    height: 150px;
+    margin: 100px 215px;
+    padding: 45px 100px;
+}
+
+.calltitle {
+    padding: 0 10px;
+    margin: 0;
+}
+
+.calltext {
+    font-weight: 300;
+}
+
+.button_accion {
+    float: right;
+    background-color: #3882f6;
+    border:3px solid white;
+    border-radius: 6px;
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: 130px;
+    height: 35px;
+}
+
+footer {
+    display: block;
+    padding: 30px 150px;
+    text-align: center;
+    font-weight: 200;
+}
